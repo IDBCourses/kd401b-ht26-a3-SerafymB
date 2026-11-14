@@ -1,0 +1,23 @@
+:root {
+  --bloodyRed3: hsl(0, 75%, 20%);
+  --bloodyRed4: hsl(0, 75%, 30%);
+
+  --orange5: hsl(33, 100%, 40%);
+
+  --purple3: hsl(278, 100%, 20%);
+  --purple4: hsl(278, 100%, 30%);
+
+  --purple9: hsl(278, 100%, 80%);
+}
+
+body {
+  color: var(--bloodyRed4);
+}
+
+main {
+  color: var(--orange5);
+}
+
+footer {
+  color: var(--bloodyRed3);
+}
