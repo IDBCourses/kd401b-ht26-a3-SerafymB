@@ -1,7 +1,3 @@
-body {
-  background-color: violet;
-}
-
 :root {
   --bloodyRed1: hsl(0, 75%, 5%);
   --bloodyRed2: hsl(0, 75%, 10%);
@@ -58,12 +54,101 @@ body {
   background-color: var(--bloodyRed1);
 }
 
-main {
-  color: var(--orange6);
-  background-color: var(--bloodyRed2);
-}
-
 footer {
   color: var(--orange8);
   background-color: var(--purple1);
+}
+
+.StartOf {
+  color: lightcyan;
+  border-radius: 20px;
+  max-width: 4000;
+  padding: 1px 5px 1px 10px;
+
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.description {
+  max-width: 400px;
+  max-height: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: 0;
+
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 5px 5px;
+
+  font-size: 12px;
+}
+
+.division {
+  color: var(--bloodyRed3);
+}
+
+main {
+  max-width: 850px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: 350px 500px;
+  gap: 0;
+
+  color: var(--orange6);
+  background-color: var(--bloodyRed2);
+  padding: 0.01px 20px 1px 20px;
+
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.ssection1 {
+  text-shadow: 1px 1px 1px black;
+}
+
+.arr1 {
+  max-width: 550px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: auto;
+  padding: 2px 5px;
+  border: 2px solid darkred;
+  border-radius: 20px;
+
+  box-shadow: 2px 2px 1px 1px black;
+
+  color: var(--yellow9);
+  text-decoration-color: var(--yellow5);
+  background-color: var(--bloodyRed1);
+
+  font-size: 16px;
+}
+
+.arr2 {
+  max-width: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: auto;
+  padding: 5px 5px;
+  border: 2px solid darkred;
+  border-radius: 20px;
+
+  box-shadow: 2px 2px 1px black;
+
+  color: var(--orange6);
+  text-decoration-color: var(--yellow5);
+  background-color: var(--bloodyRed1);
+}
+
+.intro {
+  max-width: 200px;
+  max-height: 200px;
 }
