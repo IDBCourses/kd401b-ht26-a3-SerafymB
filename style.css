@@ -61,14 +61,11 @@ footer {
 }
 
 .read {
-  max-width: 1070px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 16px;
-  margin-right: auto;
+  max-width: 1130px;
+  margin: auto;
 
   display: grid;
-  grid-template-columns: 150px 570px 1fr;
+  grid-template-columns: 200px 570px 1fr;
   gap: 0;
 
   color: var(--orange6);
@@ -171,7 +168,7 @@ footer {
   max-width: 300px;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: 0;
+  margin-left: 220px;
   margin-right: auto;
   padding: 5px 5px;
   border: 2px solid darkred;
@@ -243,10 +240,67 @@ footer {
   box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
 }
 
+.main4 {
+  max-width: 300px;
+  max-height: 300px;
+
+  margin-top: 200px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 10px;
+  border: solid black;
+  box-shadow: inset 0.5px 0.5px 0.5px 0.5px black;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
+}
+
+.main5 {
+  max-width: 300px;
+  max-height: 300px;
+
+  margin-top: 60px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 10px;
+  border: solid black;
+  box-shadow: inset 0.5px 0.5px 0.5px 0.5px black;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
+}
+
+.main6 {
+  max-width: 300px;
+  max-height: 300px;
+
+  margin-top: 60px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 10px;
+  border: solid black;
+  box-shadow: inset 0.5px 0.5px 0.5px 0.5px black;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 .NavigateMe {
   position: fixed;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: 150px;
+
+  color: cadetblue;
+  background-color: var(--bloodyRed2);
+
+  border: 3px solid black;
+  border-radius: 20px;
+
+  text-align: left;
 }
