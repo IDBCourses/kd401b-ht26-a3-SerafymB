@@ -66,7 +66,7 @@ footer {
   margin-top: 20px;
 
   display: grid;
-  grid-template-columns: 200px 700px;
+  grid-template-columns: 300px 700px;
   gap: 0;
 
   color: var(--orange6);
@@ -308,7 +308,7 @@ button:active {
   max-width: 300px;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: 220px;
+  margin-left: 0;
   margin-right: auto;
   padding: 5px 5px;
   border: 2px solid darkred;
@@ -326,7 +326,6 @@ html {
 }
 
 .NavigateMe {
-  position: fixed;
   margin: auto;
 
   color: cadetblue;
@@ -336,4 +335,8 @@ html {
   border-radius: 20px;
 
   text-align: left;
+
+  position: sticky;
+  top: 20px;
+  align-self: start;
 }
