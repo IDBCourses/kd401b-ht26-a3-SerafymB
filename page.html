@@ -4,55 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A casual page in the browser</title>
-    <link id="theme" , rel="stylesheet" href="style.css" />
+    <link id="theme1" , rel="stylesheet" href="dark.css" />
+    <script src="script.js" type="module"></script>
   </head>
 
   <body>
-    <header>
+    <header class="hidear">
       <div class="StartOf">
         <div class="heads">
           <h1>Teutonic Order</h1>
           History°Miilitary°Religion
-          <div class="aFewIntroWords">
-            <p>
-              This article consists of 7 chapter about The Teutonic Order. The
-              material used is the author's knowledge and the AI technologies.
-              Other sources such as Wikipidea, Youtube and books have been used
-              by the author. The article is not verified by any institution and
-              should not be taken as a very precise storytelling. Although, the
-              info is mostly correct. Images that have been used in this acticle
-              are AI-generated.
-            </p>
-          </div>
         </div>
-        <article class="description">
-          <p>
-            This page is dedicated to the Teutonic Order and only the Teutonic
-            Order. Here, you might find quite an interesting but, even more
-            importantly, engaging story of an order that once was thought to be
-            terrifying.
-          </p>
-          <p>
-            The aforementioned organisation existed in medieval Europe. It
-            participated in various wars, engaged in political games and served
-            God, or at least claimed to act in His name. The organisation was
-            one of the orders that were formed relatively late compared to other
-            ones.
-          </p>
-          <p>
-            Nevertheless, it became one of the greatest and most powerful
-            medieval orders ever. Despite its reputation for chivalry, Teutonic
-            knights could easily be perceived as madmen. The knights were known
-            for being a formidable force in the Baltic region, men-at-arms with
-            certain beliefs. Once, they started as a modest brotherhood and
-            eventually its influence would extend far beyond the Baltic region.
-          </p>
-        </article>
         <img
           class="intro"
           src="images/KnightNewIntro.png"
           alt="Teutonic Order could be visualised through its symbols"
         />
+        <img
+          class="intro2"
+          src="images/Storm-Battered Teutonic Banner and Fortress.png"
+          alt="Teutonic Order could be visualised through its symbols"
+        />
+        <img
+          class="intro3"
+          src="images/Kneeling Knight Beneath the Cross.png"
+          alt="Teutonic Order could be visualised through its symbols"
+        />
+        <div>
+          <button id="switch1">Change theme</button>
+        </div>
       </div>
     </header>
     <!-- <img
@@ -61,24 +41,48 @@
       alt="Teutonic Order could be visualised through its symbols"
     />
     -->
-    <p class="division">
-      ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-    </p>
     <main class="part1">
       <div class="read">
         <article>
           <nav class="NavigateMe">
             <div>
-              <p><a href="#arrr1">Chapter 1: Foundation</a></p>
+              <p><a href="#describeWhat">Introduction</a></p>
+              <p><a href="#begin">Chapter 1: Foundation</a></p>
               <p><a href="#Conquest">Chapter 2: Expansion</a></p>
               <p><a href="#arrr2">Shortly</a></p>
             </div>
           </nav>
         </article>
         <article id="arrr1" class="arr1">
-          <h2 id="begin" class="ssection1">
+          <article id="describeWhat" class="description">
+            <h3>Introduction</h3>
+            <p>
+              This page is dedicated to the Teutonic Order and only the Teutonic
+              Order. Here, you might find quite an interesting but, even more
+              importantly, engaging story of an order that once was thought to
+              be terrifying.
+            </p>
+            <p>
+              The aforementioned organisation existed in medieval Europe. It
+              participated in various wars, engaged in political games and
+              served God, or at least claimed to act in His name. The
+              organisation was one of the orders that were formed relatively
+              late compared to other ones.
+            </p>
+            <p>
+              Nevertheless, it became one of the greatest and most powerful
+              medieval orders ever. Despite its reputation for chivalry,
+              Teutonic knights could easily be perceived as madmen. The knights
+              were known for being a formidable force in the Baltic region,
+              men-at-arms with certain beliefs. Once, they started as a modest
+              brotherhood and eventually its influence would extend far beyond
+              the Baltic region.
+            </p>
+          </article>
+
+          <h3 id="begin" class="ssection1">
             The Birth of the Brotherhood (1190 to 1230)
-          </h2>
+          </h3>
 
           <p>
             There is a certain irony in the origins of the Teutonic Order.
@@ -95,6 +99,11 @@
             account, the first shelter was improvised from ships' sails. Hardly
             the grand beginning one might expect from a future military power.
           </p>
+          <img
+            class="main1"
+            src="images/Crusader States Map.png"
+            alt="Teutonic Knights in Acre in 1190"
+          />
 
           <p>
             The brotherhood did not remain merely a medical institution for
@@ -117,6 +126,11 @@
             Roman Emperor Frederick II. Such connections proved at least as
             valuable as battlefield victories.
           </p>
+          <img
+            class="main2"
+            src="images/Teutonic Knight Before a Fortress.png"
+            alt="An example of a Teutonic knight"
+          />
 
           <p>
             During the thirteenth century, the Order gradually established
@@ -145,6 +159,12 @@
             II. The celebrated Golden Bull of Rimini bears the date 1226,
             although historians dispute the precise circumstances of its
             composition.
+
+            <img
+              class="main3"
+              src="images/Teutonic Knights at Dusk.png"
+              alt="Teutons cooperating with the Hungarians"
+            />
           </p>
 
           <p>
@@ -155,7 +175,7 @@
           </p>
           <h2 id="Conquest">╚══❖ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ❖══╝</h2>
 
-          <h2 class="ssection1">The Conquest of the Baltic (1230 to 1309)</h2>
+          <h3 class="ssection1">The Conquest of the Baltic (1230 to 1309)</h3>
 
           <p>
             Having been expelled from Hungary, the Teutonic Order had learned a
@@ -174,13 +194,19 @@
             justification and an opportunity for territorial expansion.
           </p>
 
+          <img
+            class="main4"
+            src="images/teutonic_order_1230_borderless.png"
+            alt="Teutonic Order begin its conquest of the Baltic Region"
+          />
+
           <p>
             The knights did not simply charge eastward and hope for divine
             assistance. They advanced methodically along the Vistula River,
             erecting strongholds at places such as Thorn (Toruń), Kulm (Chełmno)
-            and Elbing (Elbląg). Fortresses secured supplies and communications,
-            while new settlements attracted colonists. A conquered district was
-            not particularly useful if its conquerors could not hold it.
+            and Elbing. Fortresses secured supplies and communications, while
+            new settlements attracted colonists. A conquered district was not
+            particularly useful if its conquerors could not hold it.
           </p>
 
           <p>
@@ -193,9 +219,15 @@
             neighbouring territories.
           </p>
 
+          <img
+            class="main5"
+            src="images/Teutonic Siege Through the Mud.png"
+            alt="Teutonic Order begin its conquest of the Baltic Region"
+          />
+
           <p>
             Victory was hardly uninterrupted. The Old Prussians resisted
-            fiercely, with major uprisings in 1242–1249 and 1260–1274. The
+            fiercely, with major uprisings in 1242 to 1249 and 1260 to 1274. The
             second rebellion threatened several of the Order's strongholds
             following a devastating crusader defeat at Durbe in 1260. This was
             no tale of helpless pagans swept aside by invincible knights. It was
@@ -219,6 +251,12 @@
             in 1309.
           </p>
 
+          <img
+            class="main6"
+            src="images/teutonic_order_1230_1309_borderless.png"
+            alt="Teutonic Order begin its conquest of the Baltic Region"
+          />
+
           <p>
             The modest hospital brotherhood of Acre had become a territorial
             power. The question was no longer whether these monks could conquer
@@ -226,41 +264,6 @@
           </p>
           <h2>╚══❖ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ❖══╝</h2>
         </article>
-        <div>
-          <img
-            class="main1"
-            src="images/Crusader States Map.png"
-            alt="Teutonic Knights in Acre in 1190"
-          />
-
-          <img
-            class="main2"
-            src="images/Teutonic Knight Before a Fortress.png"
-            alt="An example of a Teutonic knight"
-          />
-
-          <img
-            class="main3"
-            src="images/Teutonic Knights at Dusk.png"
-            alt="Teutons cooperating with the Hungarians"
-          />
-
-          <img
-            class="main4"
-            src="images/teutonic_order_1230_borderless.png"
-            alt="Teutonic Order begin its conquest of the Baltic Region"
-          />
-          <img
-            class="main5"
-            src="images/Teutonic Siege Through the Mud.png"
-            alt="Teutonic Order begin its conquest of the Baltic Region"
-          />
-          <img
-            class="main6"
-            src="images/teutonic_order_1230_1309_borderless.png"
-            alt="Teutonic Order begin its conquest of the Baltic Region"
-          />
-        </div>
       </div>
 
       <article id="arrr2" class="arr2">
