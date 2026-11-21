@@ -167,7 +167,7 @@ button {
 }
 
 button:hover {
-  background-color: red;
+  background-color: var(--purple8);
   color: black;
 }
 
