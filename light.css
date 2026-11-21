@@ -51,7 +51,7 @@
 body {
   color: var(--bloodyRed6);
   text-decoration-color: var(--yellow5);
-  background-color: whitesmoke;
+  background-color: var(--bloodyRed1);
   max-width: 3000px;
 }
 
@@ -66,7 +66,7 @@ footer {
   margin-top: 20px;
 
   display: grid;
-  grid-template-columns: 200px 700px;
+  grid-template-columns: 300px 700px;
   gap: 0;
 
   color: var(--orange6);
@@ -96,7 +96,6 @@ a:hover {
   display: flex;
   flex-direction: row;
   border-bottom: 2px solid gray;
-  padding: 20px;
 
   color: lightcyan;
   border-radius: 20px;
@@ -194,11 +193,22 @@ button:active {
 
   box-shadow: 2px 2px 1px 1px black;
 
-  color: var(--yellow9);
+  color: var(--orange8);
   text-decoration-color: var(--yellow5);
-  background-color: var(--bloodyRed1);
+  background-color: var(--purple1);
 
-  font-size: 16px;
+  font-size: 15px;
+
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .main1 {
@@ -309,7 +319,7 @@ button:active {
   max-width: 300px;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: 220px;
+  margin-left: 0;
   margin-right: auto;
   padding: 5px 5px;
   border: 2px solid darkred;
@@ -327,7 +337,6 @@ html {
 }
 
 .NavigateMe {
-  position: fixed;
   margin: auto;
 
   color: cadetblue;
@@ -337,4 +346,8 @@ html {
   border-radius: 20px;
 
   text-align: left;
+
+  position: sticky;
+  top: 20px;
+  align-self: start;
 }
